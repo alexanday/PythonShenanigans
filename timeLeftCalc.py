@@ -1,9 +1,8 @@
 #calculates days, weeks, months left of life 
 #based on a 90 year lifespan
 
-age = input("What is your current age?")
+age = int(input("What is your current age?"))
 
-age = int(age)
 totalLifespan = 90 * 365
 yourLifespan = int(age * 365)
 
